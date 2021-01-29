@@ -5,7 +5,7 @@ public class Produtos {
 	private int id;
 	private int quantidade;	
 	private String nome;
-	private boolean preco;
+	private double preco;
 	
 	
 	public int getId() {
@@ -27,10 +27,10 @@ public class Produtos {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public boolean isPreco() {
+	public double isPreco() {
 		return preco;
 	}
-	public void setPreco(boolean preco) {
+	public void setPreco(double preco) {
 		this.preco = preco;
 	}
 	
